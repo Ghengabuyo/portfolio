@@ -1,0 +1,76 @@
+.myFooter {
+  background-color: rgb(243, 213, 213);
+  padding: 15px;
+}
+
+.myName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 5px; */
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.icon {
+
+  font-size: 2rem;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  padding: 5px;
+  /* Add some padding for the background color */
+  border-radius: 10%;
+  /* Make the background color appear as a circle */
+}
+
+.iconFacebook {
+  color: #1877f2;
+}
+
+.facebook:hover {
+  background-color: #1877f2;
+  /* Facebook's brand color */
+  color: white;
+  /* Change icon color to white */
+  transform: scale(1.2);
+}
+
+.iconInstagram {
+  color: #ea3b2b;
+}
+
+.instagram:hover {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  color: white;
+  /* Change icon color to white */
+  transform: scale(1.2);
+}
+
+.iconLinkedin {
+  color: #0077b5;
+}
+
+.linkedin:hover {
+  background-color: #0077b5;
+  /* LinkedIn's brand color */
+  color: white;
+  /* Change icon color to white */
+  transform: scale(1.2);
+}
+
+.iconGitlab {
+  color: #fc6d26;
+}
+
+.gitlab:hover {
+  background-color: #fc6d26;
+  /* GitLab's brand color */
+  color: white;
+  /* Change icon color to white */
+  transform: scale(1.2);
+}

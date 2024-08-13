@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, 'Roboto', sans-serif;
+  background-image: URL('/p6-final-portfolio/frontend/public/baseBackground.png');
+  overflow: hidden;
+}
